@@ -1,9 +1,12 @@
 
 using UnityEngine;
-[CreateAssetMenu(fileName = "ScriptableObjects", menuName = "ScriptableObject/Car/NewCar")]
-public class CarSciptableObjects : ScriptableObject
+namespace Carvishualizer.car
 {
-    public GameObject CarPrefab;
-    public AudioClip CarClip;
+    [CreateAssetMenu(fileName = "ScriptableObjects", menuName = "ScriptableObject/Car/NewCar")]
+    public class CarSciptableObjects : ScriptableObject
+    {
+        public GameObject CarPrefab;
+        public AudioClip CarClip;
 
+    }
 }

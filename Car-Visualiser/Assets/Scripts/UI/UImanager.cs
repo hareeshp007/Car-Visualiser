@@ -1,31 +1,37 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class UImanager : MonoBehaviour
+namespace Carvishualizer.UI
 {
-    public GameObject CarColorPicker;
-    public GameObject CarWindowColorPicker;
-    public void CarColorPallete()
+    public class UImanager : MonoBehaviour
     {
-        if(CarColorPicker.activeInHierarchy)
+        public GameObject CarColorPicker;
+        public GameObject CarWindowColorPicker;
+        public void CarColorPallete()
         {
-            CarColorPicker.SetActive(false);
+            if (CarColorPicker.activeInHierarchy)
+            {
+                CarColorPicker.SetActive(false);
+            }
+            else
+            {
+                CarColorPicker.SetActive(true);
+            }
         }
-        else
+        public void CarWindowColorPallete()
         {
-            CarColorPicker.SetActive(true);
+            if (CarWindowColorPicker.activeInHierarchy)
+            {
+                CarWindowColorPicker.SetActive(false);
+            }
+            else
+            {
+                CarWindowColorPicker.SetActive(true);
+            }
         }
-    }
-    public void CarWindowColorPallete()
-    {
-        if (CarWindowColorPicker.activeInHierarchy)
+        public void Exit()
         {
-            CarWindowColorPicker.SetActive(false);
-        }
-        else
-        {
-            CarWindowColorPicker.SetActive(true);
+            Application.Quit();
         }
     }
 }

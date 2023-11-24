@@ -1,8 +1,12 @@
 
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "ScriptableObjects", menuName = "ScriptableObject/Car/CarList")]
-public class CarsSOList : ScriptableObject
+namespace Carvishualizer.car
 {
-    public List<CarSciptableObjects> cars;
+    [CreateAssetMenu(fileName = "ScriptableObjects", menuName = "ScriptableObject/Car/CarList")]
+    public class CarsSOList : ScriptableObject
+    {
+        public List<CarSciptableObjects> cars;
+    }
 }
+

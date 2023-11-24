@@ -1,22 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class MonoSingletonGeneric<T> : MonoBehaviour where T : MonoSingletonGeneric<T>
+using UnityEngine;
+namespace Carvishualizer.essentials
 {
-    private static T instance;
-    public static T Instance { get { return instance; } set { } }
-    protected virtual void Awake()
+    public class MonoSingletonGeneric<T> : MonoBehaviour where T : MonoSingletonGeneric<T>
     {
-        if (instance == null)
+        private static T instance;
+        public static T Instance { get { return instance; } set { } }
+        protected virtual void Awake()
         {
-            instance = (T)this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Debug.Log("Duplicate Character instance detected");
-            Destroy(gameObject);
+            if (instance == null)
+            {
+                instance = (T)this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Debug.Log("Duplicate Character instance detected");
+                Destroy(gameObject);
+            }
         }
     }
 }

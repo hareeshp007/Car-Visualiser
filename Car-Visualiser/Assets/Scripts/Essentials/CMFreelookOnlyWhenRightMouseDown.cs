@@ -1,36 +1,39 @@
 using Cinemachine;
 using UnityEngine;
 
-public class CMFreelookOnlyWhenRightMouseDown : MonoBehaviour
+namespace Carvishualizer.camera
 {
-    void Start()
+    public class CMFreelookOnlyWhenRightMouseDown : MonoBehaviour
     {
-        CinemachineCore.GetInputAxis = GetAxisCustom;
-    }
-    public float GetAxisCustom(string axisName)
-    {
-        if (axisName == "Mouse X")
+        void Start()
         {
-            if (Input.GetMouseButton(0))
-            {
-                return UnityEngine.Input.GetAxis("Mouse X");
-            }
-            else
-            {
-                return 0;
-            }
+            CinemachineCore.GetInputAxis = GetAxisCustom;
         }
-        else if (axisName == "Mouse Y")
+        public float GetAxisCustom(string axisName)
         {
-            if (Input.GetMouseButton(0))
+            if (axisName == "Mouse X")
             {
-                return UnityEngine.Input.GetAxis("Mouse Y");
+                if (Input.GetMouseButton(0))
+                {
+                    return UnityEngine.Input.GetAxis("Mouse X");
+                }
+                else
+                {
+                    return 0;
+                }
             }
-            else
+            else if (axisName == "Mouse Y")
             {
-                return 0;
+                if (Input.GetMouseButton(0))
+                {
+                    return UnityEngine.Input.GetAxis("Mouse Y");
+                }
+                else
+                {
+                    return 0;
+                }
             }
+            return UnityEngine.Input.GetAxis(axisName);
         }
-        return UnityEngine.Input.GetAxis(axisName);
     }
 }
