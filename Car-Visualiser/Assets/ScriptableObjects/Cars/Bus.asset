@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Bus
   m_EditorClassIdentifier: 
   CarPrefab: {fileID: 6287319582821184461, guid: 77653068d1cd5254c82b4e0048353235, type: 3}
-  CarClip: {fileID: 0}
+  CarClip: {fileID: 8300000, guid: db4194466c73daa438dce058fa862e15, type: 3}

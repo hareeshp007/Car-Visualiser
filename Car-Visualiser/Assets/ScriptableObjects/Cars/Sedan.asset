@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Sedan
   m_EditorClassIdentifier: 
   CarPrefab: {fileID: 5686074402418921634, guid: 3c5b9150bbe75ad458fb7e4b20dc7b79, type: 3}
-  CarClip: {fileID: 0}
+  CarClip: {fileID: 8300000, guid: de3423dd4fbb2d74f8ff3ee78478e96c, type: 3}

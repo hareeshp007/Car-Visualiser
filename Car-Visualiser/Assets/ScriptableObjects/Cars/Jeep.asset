@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Jeep
   m_EditorClassIdentifier: 
   CarPrefab: {fileID: 8865956996324941505, guid: 5d02eda6ed23abf43bb92baf6f441c0a, type: 3}
-  CarClip: {fileID: 0}
+  CarClip: {fileID: 8300000, guid: ea44981b94062934fa918e9d4ae9506a, type: 3}

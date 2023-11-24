@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Car
   m_EditorClassIdentifier: 
   CarPrefab: {fileID: 9193091905229099719, guid: 5a826e1a9f9a0a74fbf63d825c3e464a, type: 3}
-  CarClip: {fileID: 0}
+  CarClip: {fileID: 8300000, guid: 43cb8dfc5330eee46a353a28f98249ef, type: 3}

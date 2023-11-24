@@ -4,16 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SoundManager : MonoBehaviour
+public class SoundManager : MonoSingletonGeneric<SoundManager>
 {
     public Slider VolumeSlider;
     public AudioSource SoundEffect;
     public AudioSource SoundMusic;
     [Range(0f, 1f)] public float userVolume;
     public float Volume = 1f;
-
     public SoundType[] Soundtypes;
-
     private void Start()
     {
         SetVolume(userVolume);
@@ -24,11 +22,11 @@ public class SoundManager : MonoBehaviour
     {
         if (SoundMusic.volume > 0)
         {
-            SoundMusic.volume = 0;
+            SoundMusic.Stop();
         }
         else
         {
-            SoundMusic.volume= userVolume;
+            SoundMusic.Play();
         }
     }
     public void SetVolume(float volume)
@@ -64,6 +62,20 @@ public class SoundManager : MonoBehaviour
             Debug.LogError("Sound Clip :" + clip.name + "not found");
         }
     }
+    public void PlayAudio(AudioClip sound)
+    {
+        AudioClip clip = sound;
+        SetMusic();
+        if (clip != null  && !SoundEffect.isPlaying)
+        {
+            SoundEffect.PlayOneShot(clip);
+        }
+        else
+        {
+            Debug.LogError("Sound Clip :" + clip.name + "not found");
+        }
+       
+    }
 
     private AudioClip getSoundClip(Sounds sound)
     {
@@ -78,6 +90,7 @@ public class SoundManager : MonoBehaviour
     public void StopEffect()
     {
         SoundEffect.Stop();
+        SetMusic();
     }
 
 }
