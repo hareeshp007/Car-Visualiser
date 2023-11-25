@@ -18,6 +18,15 @@ Music
 AutoRotate Funtion to rotate around the car
 close button to exit the application
 
+## Used Packages
+cinemachine
+TMpro
+UR pipeline
+Flexible Color Picker (Unity asset store)
+Dark UI (Unity asset store)
+stylized vehicle pack (Unity asset store)
+Take a ride (sound Track - unity asset store)
+World material (Unity asset store)
 ## Images
 
 ### UI
