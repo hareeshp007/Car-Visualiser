@@ -63,5 +63,9 @@ namespace Carvishualizer.car
         {
             SoundManager.Instance.PlayAudio(carAudios[CurrentValue]);
         }
+        public void CarAnimation()
+        {
+            CurrentCar.gameObject.GetComponent<CarView>().AniamtionCar();
+        }
     }
 }

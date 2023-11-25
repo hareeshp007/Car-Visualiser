@@ -678,6 +678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1894404873762034047}
   - component: {fileID: -2557460996364768775}
+  - component: {fileID: 6861621612715467086}
   m_Layer: 0
   m_Name: SportCar2
   m_TagString: Untagged
@@ -722,3 +723,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CarMaterial: {fileID: 2100000, guid: 63ac1dac8c25fd64aabb42d0c70d366d, type: 2}
   CarWindow: {fileID: 2100000, guid: cc7b2db259c363947adc3910417f93b8, type: 2}
+--- !u!95 &6861621612715467086
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894404873762196831}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39c2afd7856dce147bbe68e4899565c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

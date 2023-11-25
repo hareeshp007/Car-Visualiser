@@ -6,6 +6,12 @@ namespace Carvishualizer.car
     {
         public Material CarMaterial;
         public Material CarWindow;
+        [SerializeField]
+        private Animator animator;
+        private void Awake()
+        {
+            animator = GetComponent<Animator>();
+        }
         public void SetColorCar(Color color)
         {
             CarMaterial.color = color;
@@ -13,6 +19,11 @@ namespace Carvishualizer.car
         public void SetColorCarWindow(Color color)
         {
             CarWindow.color = color;
+        }
+
+        public void AniamtionCar()
+        {
+            animator.SetTrigger("AnimationButtonOn");
         }
     }
 }

@@ -261,6 +261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9193091905229197031}
   - component: {fileID: 5844015748385124072}
+  - component: {fileID: 5334320146010037063}
   m_Layer: 0
   m_Name: Car2
   m_TagString: Untagged
@@ -305,6 +306,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CarMaterial: {fileID: 2100000, guid: 63ac1dac8c25fd64aabb42d0c70d366d, type: 2}
   CarWindow: {fileID: 2100000, guid: cc7b2db259c363947adc3910417f93b8, type: 2}
+--- !u!95 &5334320146010037063
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9193091905229099719}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e8088d9ef1e0c2242abaa10e5a5a23b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9193091905229099721
 GameObject:
   m_ObjectHideFlags: 0

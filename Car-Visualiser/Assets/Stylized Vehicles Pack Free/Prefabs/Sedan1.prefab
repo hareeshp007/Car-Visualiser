@@ -95,6 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5686074402418494594}
   - component: {fileID: 8852972347664920362}
+  - component: {fileID: 2220766759986300503}
   m_Layer: 0
   m_Name: Sedan1
   m_TagString: Untagged
@@ -141,6 +142,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CarMaterial: {fileID: 2100000, guid: 63ac1dac8c25fd64aabb42d0c70d366d, type: 2}
   CarWindow: {fileID: 2100000, guid: cc7b2db259c363947adc3910417f93b8, type: 2}
+--- !u!95 &2220766759986300503
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5686074402418921634}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 06edc357a3345ee47a7d2f32b9d0d6b0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5686074402418921636
 GameObject:
   m_ObjectHideFlags: 0
