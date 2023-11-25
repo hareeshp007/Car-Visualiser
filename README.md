@@ -30,6 +30,10 @@ a car visualizer with different types of cars and real time color changing
 #### World material (Unity asset store)
 
 
+## Video : https://drive.google.com/file/d/158SvKAqV4yf9bMSXfSqZHZ5x5XqSRQiZ/view?usp=sharing
+
+## Build : https://drive.google.com/file/d/1DaRwEXiIZxMkKefXkWEzEN5Vww3d3akA/view?usp=sharing
+
 ## Images
 
 ### UI
