@@ -33,7 +33,7 @@ close button to exit the application
 #### **jeep**
 ![Jeep](https://github.com/hareeshp007/Car-Visualiser/assets/46471092/abb37a1b-09ce-4d24-b3e9-365f4c4e507f)
 
-#### **bus**
+#### **Mini-bus**
 ![Bus](https://github.com/hareeshp007/Car-Visualiser/assets/46471092/b190c395-ff05-41af-8937-4fadc778fa00)
 
 #### **sportcar**
