@@ -2,21 +2,21 @@
 a car visualizer with different types of cars and real time color changing
 
 ## Main Movements
-Input : mouse click and Drag to rotate and pan , mouse Wheels to Rotate
+##### Input : mouse click and Drag to rotate and pan , mouse Wheels to Rotate
 
-Utilise a 3D car model (you can use free assets or models available in Unity's Asset Store) as the main visual element.
-Implement user controls to allow the user to rotate, pan, and zoom around the car model.
-Enable the user to change the colour or texture of certain parts of the car interactively.
-Additional Features: toggling different car models, adding animations, or integrating audio effects (optional for bonus points).
+##### Utilise a 3D car model (you can use free assets or models available in Unity's Asset Store) as the main visual element.
+##### Implement user controls to allow the user to rotate, pan, and zoom around the car model.
+##### Enable the user to change the colour or texture of certain parts of the car interactively.
+##### Additional Features: toggling different car models, adding animations, or integrating audio effects (optional for bonus points).
 
 ## UI
 
-DropDown for Different car Selection
-Colour selection for car body and car Windows
-Different animations and different sound effects for different cars
-Music
-AutoRotate Funtion to rotate around the car
-close button to exit the application
+##### DropDown for Different car Selection
+##### Colour selection for car body and car Windows
+##### Different animations and different sound effects for different cars
+##### Music
+##### AutoRotate Funtion to rotate around the car
+##### close button to exit the application
 
 ## Used-Packages
 
