@@ -11,12 +11,12 @@ a car visualizer with different types of cars and real time color changing
 
 ## UI
 
-##### DropDown for Different car Selection
-##### Colour selection for car body and car Windows
-##### Different animations and different sound effects for different cars
-##### Music
-##### AutoRotate Funtion to rotate around the car
-##### close button to exit the application
+##### DropDown for Different car Selection (Bottom-Middle DropDown)
+##### Colour selection for car body and car Windows (Bottom-Middle)
+##### Different animations (Bottom-Right corner Gem Button) and different sound effects (Top-Right Corner Sound Button) for different cars
+##### Music (Top-Left Corner Music Button)
+##### AutoRotate Funtion to rotate around the car (Top-Middle)
+##### close button to exit the application(Bottom-Left Corner Cross Button)
 
 ## Used-Packages
 
